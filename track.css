@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.heroscetion {
+  height: 90vh;
+}
+
+.track {
+  gap: 5px;
+  width: 40%;
+  height: 50%;
+  background-color: #fff;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  border-radius: 7px;
+  padding: 3rem 2rem;
+  box-shadow: 0px 10px 25px -10px #000000;
+  clear: both;
+}
+.track h2 {
+  font-weight: 800;
+}
+.track p {
+  font-weight: 800;
+}
+.track a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: red;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.track a:hover {
+  background-color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 11vh;
+  font-size: 14px;
+  font-weight: 100;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 25px 16px;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* opacity: 0.1; */
+  color: white;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+}
+
+.other {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15rem;
+  justify-content: space-evenly;
+  padding: 25px 16px;
+}
+
+nav:hover {
+  background-color: #ff0d3d;
+}
+
+.icon {
+  display: flex;
+  gap: 25px;
+}
+
+/* for dropdown content of protein */
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  padding: 25px 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  height: 25rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  list-style: none;
+  gap: 10rem;
+  padding: 50px 60px;
+}
+footer h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px;
+}
+footer li {
+  margin-left: 20px;
+  margin-top: 0.5rem;
+  font-size: 13px;
+}
+footer .news input {
+  min-width: 300px;
+}/*# sourceMappingURL=track.css.map */

@@ -1,0 +1,27 @@
+//for foooter
+//for foooter
+footer{
+    height: 25rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    padding: 50px 60px;
+    h2{
+        font-weight:500;
+        font-size: 20px;
+        margin: 20px;
+    }
+    li{
+        margin-left: 20px;
+        margin-top: 0.5rem;
+        font-size: 13px;
+        
+    }
+    .news{
+        input{
+            min-width: 300px;
+        }
+    }
+   }
